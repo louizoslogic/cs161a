@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
     // Declare variables
-    float hourlyRate, federalWithholdingRate, federalTaxWithholding, grossPay, netPay;
-    int employeeID, hoursWorked;
+    float hourlyRate, federalWithholdingRate, federalTaxWithholding, grossPay, netPay, hoursWorked;
+    int employeeID;
 
     //Welcome message
     cout << "Welcome to my Weekly Payroll program!!" << endl;
