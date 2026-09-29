@@ -6,7 +6,7 @@
 # Date:             September 27, 2026
 # Description:      This program calculates the cost of gas for a trip.
 # Input:            miles, milesPerGallon,PriceOfGas
-# Output:           cost of gas for the trip
+# Output:           costPerMile,costOfTrip
 # Sources:          None
 #******************************************************************************/
 
@@ -15,8 +15,8 @@ using namespace std;
 
 int main() {
     // Declare variables
-    float costPerMile, costOfTrip;
-    float miles, milesPerGallon, priceOfGas;
+    double costPerMile, costOfTrip;
+    double miles, milesPerGallon, priceOfGas;
 
     //Welcome message
     cout << "Welcome to my Gas Cost Calculator program!!" << endl;
@@ -30,10 +30,10 @@ int main() {
 
     // Calculate and display the cost of gas for the trip
     costOfTrip = (miles / milesPerGallon) * priceOfGas;
-    cout << "The cost of gas for the trip is: $" << costOfTrip << endl;
+    cout <<  fixed << setprecision(2) << "The cost of gas for the trip is: $" << costOfTrip << endl;
     cout << endl;
     costPerMile = priceOfGas / milesPerGallon;
-    cout << "The cost per mile for the trip is: $" << costPerMile << endl;
+    cout <<  fixed << setprecision(2) << "The cost per mile for the trip is: $" << costPerMile << endl;
     cout << endl;
 
     return 0;
