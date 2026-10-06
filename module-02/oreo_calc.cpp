@@ -1,5 +1,3 @@
-// NOTE: This template is to be used for discussion ONLY! You must
-// use the required Algorithmic Design Document for all Assignments.
 /******************************************************************************
 # Author:           Jayson Louizos
 # Lab:              Assignment #2
