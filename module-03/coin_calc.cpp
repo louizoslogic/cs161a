@@ -1,7 +1,7 @@
 // NOTE: This template is to be used for discussion ONLY! You must
 // use the required Algorithmic Design Document for all Assignments.
 /******************************************************************************
-# Author:           Jayson Louizos, Partner
+# Author:           Jayson Louizos, Thomas
 # Lab:              Discussion #3
 # Date:             October 5th, 2026
 # Description:      This program calculates the coinage needed for a given amount.
