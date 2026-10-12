@@ -39,7 +39,6 @@ int main() {
         cout << "Thank you for using Washington State Ferries Fare Calculator!";
         return 1;
     }
-    cout<<endl<<price<<endl;
 
     cout << "How many adults? ";
     cin >> adults;
@@ -67,7 +66,8 @@ int main() {
         price += youths * 5.55;
     }
     else{
-        cout << "Error!! Invalid number of youths!! Please try again later!!!" << endl << endl;
+        cout << "Error!! Invalid number of youths!! Please try again later!!!" << endl;
+        cout << endl;
         cout << "Thank you for using Washington State Ferries Fare Calculator!" << endl;
         return 1;
     }
@@ -78,7 +78,8 @@ int main() {
             price += bikes * 4.00;
         }
         else{
-            cout << "Error!! Invalid number of bicycles!! Please try again later!!!" << endl << endl;
+            cout << "Error!! Invalid number of bicycles!! Please try again later!!!" << endl;
+            cout << endl;
             cout << "Thank you for using Washington State Ferries Fare Calculator!" << endl;
             return 1;
         }
