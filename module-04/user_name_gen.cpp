@@ -1,12 +1,12 @@
 // NOTE: This template is to be used for discussion ONLY! You must
 // use the required Algorithmic Design Document for all Assignments.
 /******************************************************************************
-# Author:           Jayson Louizos, Thomas
-# Lab:              Discussion #3
-# Date:             October 5th, 2026
-# Description:      This program calculates the coinage needed for a given amount.
-# Input:            miles, milesPerGallon,PriceOfGas
-# Output:           costPerMile,costOfTrip
+# Author:           Jayson Louizos, Thomas Campos
+# Lab:              Discussion #4
+# Date:             October 14th, 2026
+# Description:      This program calculates a username with firstlast and 4 digit number provided.
+# Input:            firstName, lastName, intNumber
+# Output:           username
 # Sources:          None
 #******************************************************************************/
 #include <iomanip>

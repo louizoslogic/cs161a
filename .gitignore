@@ -1,0 +1,65 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic and Static libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Debugger and Linker files
+*.ilk
+*.pdb
+*.dwo
+*.suo
+*.nc
+*.aps
+
+# CMake and Build systems
+build/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# IDEs and Editors (Visual Studio, VS Code, CLion, Xcode)
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+*.suo
+*.user
+*.ipch
+ipch/
+
+# Operating System generated files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
