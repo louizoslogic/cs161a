@@ -14,7 +14,6 @@ using namespace std;
 int main() {
     // Declare variables
     int calories,oreos;
-    float servings;
 
     // Welcome message
     cout << "Welcome to the Oreo Calculator!" << endl;
@@ -24,16 +23,13 @@ int main() {
     cout << endl;
 
     // Calculate and display the calories and servings for the Oreos eaten
-    servings = oreos / 5.0; // Calculate number of servings
-    calories = servings * 160; // Assuming 160 calories per serving
+    double servings = static_cast<double>(oreos) / 5; // Calculate number of servings
+    calories = static_cast<int>(servings * 160); // Assuming 160 calories per serving
+    calories = calories / 100; // Convert to whole number of calories
     cout << oreos <<" Oreos equals " << servings << " servings!" << endl;
     cout << "You consumed " << calories << " calories." << endl;
     cout << endl;
-    if (calories < 2399) {
-        cout << "Keep eating Oreos!" << endl;
-    }
-    else {
-        cout << "You ate an entire package of Oreos please stop." << endl;
-    }
+    cout << "Keep eating Oreos!" << endl;
+
     return 0;
 }
