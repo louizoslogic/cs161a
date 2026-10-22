@@ -22,10 +22,7 @@ int main() {
    string extracted1 = "";
    string extracted2 = "";
 
-   cout << "Welcome to the Phrases and Subphrases program!" << endl;
-   cout << "This program evaluates phrases and discovers "
-        << "if they share subphrases." << endl;
-   cout << endl;
+   cout << "Welcome to the Phrases and Subphrases program!" << endl;   cout << endl;
 
    cout << "Enter Phrase 1: ";
    getline(cin, phrase1);
@@ -38,17 +35,17 @@ int main() {
 
    pos1 = phrase1.find(phrase2);
    if (pos1 != std::string::npos) {
-      cout << phrase2 << " is a subphrase of " 
-           << phrase1 << "." << endl;
-      extracted1 = phrase1.substr(pos1, phrase2.length());
+      cout << phrase2 << " is found in " 
+           << phrase1 << endl;
+      extracted1 = phrase1.substr(pos1);
       cout << extracted1 << endl;
    }
 
    pos2 = phrase2.find(phrase1);
    if (pos2 != std::string::npos) {
-      cout << phrase1 << " is a subphrase of " 
-           << phrase2 << "." << endl;
-      extracted2 = phrase2.substr(pos2, phrase1.length());
+      cout << phrase1 << " is found in " 
+           << phrase2 << endl;
+      extracted2 = phrase2.substr(pos2);
       cout << extracted2 << endl;
    }
 
